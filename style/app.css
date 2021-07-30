@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    font-size: 18px;
+    line-height: 1.778em;
+    font-weight: 500;
+    color: #73739a;
+}
+
+h1 {
+    font-size: 62px;
+    line-height: 1.161em;
+    color: #1c1c57;
+}
+h2 {
+    font-size: 40px;
+    line-height: 1.4em;
+    color: #1c1c57;
+}
+h3 {
+    font-size: 24px;
+    line-height: 1.5em;
+}
+h4 {
+    font-size: 22px;
+    line-height: 1.545em;
+}
+h5 {
+    font-size: 18px;
+    line-height: 1.333em;
+}
+h6 {
+    font-size: 16px;
+    line-height: 1.375em;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+button.btn {
+    background-color: #6d72f6;
+    /* margin-right: 28px; */
+    border-radius: 14px;
+    padding: 20px 40px;
+    color: white;
+    font-weight: 500;
+}
+
+img#main {
+    width: 100%;
+    border-radius: 14px;
+}
+
+hr.mainhr {
+    border: 1px solid #73739a;
+    border-radius: 5px;
+}
+
+.card {
+    background-color: #ececf6;
+    color: black;
+    padding: 60px 40px 60px;
+}
+
+#back {
+    color: white;
+    background-color: #6d72f6;
+}
